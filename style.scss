@@ -54,14 +54,29 @@ body {
 
 .h4 {
   color: #138073;
+  font-weight: 600;
 }
 
 div input,
 span {
   color: #138073;
 }
+
+div input {
+  border: 1px solid #39b69f;
+  box-shadow: 0 0 2px #39b69f;
+}
+div span {
+  font-size: 12px;
+}
+.second-span {
+  text-decoration: underline !important;
+}
 @media (max-width: 900px) {
   .main {
     align-items: right;
+  }
+  .second-span {
+    display: block;
   }
 }
